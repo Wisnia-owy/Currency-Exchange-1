@@ -1,0 +1,84 @@
+html{
+    box-sizing: border-box;
+}
+*,::before ,::after{
+    box-sizing: inherit;
+}
+
+.form__labelText{
+    color: black;
+    width: 100%;
+    max-width: 100px;
+    display:flow-root;
+    margin-right: 10px;
+}
+ .form__fieldset{
+    color: black;
+    border: 10px double rgb(144, 144, 218);
+    padding: 10px;
+    border-radius: 20px;
+    margin: 20px 10px;
+ }
+ .form__field{
+    border: 2px solid rgb(131, 131, 200);
+    padding: 2px;
+    width:50%;
+    max-width: 400px;
+    border-radius: 20px;
+ }
+ 
+ .form__field:required {
+    border-color: rgb(12, 6, 18);
+
+ }
+
+ .form__field:invalid{
+    background-color: rgb(207, 190, 223);
+ }
+
+ .form__button{
+    width: 100%;
+    border-style: groove;
+    border-radius: 20px;
+    color:white;
+    background-color:rgb(39, 25, 170);
+    padding: 5px;
+ }
+
+ .form__button--reset{
+    width: 100%;
+    border-style: groove;
+    border-radius: 20px;
+    color:white;
+    background-color:rgb(39, 25, 170);
+    padding: 5px;
+
+ }
+
+ .form__button--reset:hover{
+    background-color: blue;
+
+ }
+
+ .form__button:hover{
+    background-color: blue;
+ }
+
+ .form__legend{
+    background-color:rgb(39, 25, 170);
+    color: white;
+    padding: 7px;
+    border-radius: 20px;
+    border: groove black;
+ }
+
+ .form__nededField{
+    color: black;
+ }
+
+ .form__paragraph{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+
+ }

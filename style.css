@@ -12,7 +12,10 @@ html {
     padding: 10px 20px;
     border:7px double;color: blue;
     border-radius: 20px;
-
+    background-image: url("../images/exch.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
 
 .footer{

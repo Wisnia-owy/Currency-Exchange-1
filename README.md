@@ -6,3 +6,8 @@
 
 Hi there. Welcome in my firrst app I done, its a basic Currency-Exchange. You can  
 easy convert GBP to PLN in few simply steps . Enjoy :)
+
+## Used technologies:
+- HTML
+- CSS (BEM, Flex Box)
+- JavaScript (ES6+)

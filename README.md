@@ -1,5 +1,5 @@
 # Currency-Exchange-1
-## Welcome in my Simple]y Currency exchange app
+## Welcome in my Simple Currency exchange app
 
 ![How to use](images/exchange.gif)
 
